@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    border: solid 1px #aaaaaa;
+    width: 1113px;
+    float: right;
+    background-color: #dee3e4;
+}
+
+header h2 {
+    float: left;
+    margin: 12px 0px;
+}
+
+header .star,.calender,.pensol,input,button {
+    float: right;
+    margin-top: 20px;
+}
+
+header input {
+    margin-left: 25px;
+}
+
+header .star,.calender,.pensol {
+    margin: 0;
+    padding: 18.5px 17px;
+    width: 16px;
+    height: 24px;
+}
+
+header .star:hover {
+    background-color: #bae9f3;
+}
+
+header .calender:hover {
+    background-color: #bae9f3;
+}
+
+header .pensol:hover {
+    background-color: #bae9f3;
+}
+
+.scroll-box {
+    overflow-x: scroll;
+    width: 1114px;
+    height: 450px;
+    float: right;
+}
+
+.to-ko {
+    height: 700px;
+    background-color: #dee3e4;
+}
+
+footer {
+    border: solid 1px #dee3e4;
+    width: 1112px;
+    height: 109px;
+    float: right;
+    background-color: #dee3e4;
+}
+
+footer textarea {
+    margin: 20px 0px 10px 20px;
+    border-radius: 5px;
+}
+
+footer button {
+    margin: 43px 25px 0px 0px;
+}
+
+.header-side {
+    background-color: #28d;
+    border: solid 1px #28d;
+    width: 250px;
+    height: 550px;
+}
+
+.header-side h2 {
+    margin: 0;
+}
+
+.header-side .title {
+    border: solid 1px rgb(36, 108, 167);
+    width: 248px;
+}
+
+.header-side .title:hover {
+    background-color: #05a;
+}
+
+.header-side .username {
+    color: #fff;
+}
+
+.header-side h3 {
+    padding-left: 10px; 
+    margin: 0;
+    width: 241px;
+}
+
+.header-side .channel-add {
+    margin-left: 115px;
+}
+
+.header-side .dm-add {
+    margin-left: 20px;
+}
+
+.header-side .menbar-add {
+    margin-left: 100px;
+}
+
+.header-side h3:hover {
+    background-color: #05a;
+}
+
+.header-side .kuuhaku {
+    width: 210px;
+    height: 28px;
+}
+
+.header-side .channel {
+    width: 250px;
+
+}
+
+.header-side .channel-coment {
+    color: #fff;
+    display: block;
+    padding-left: 10px;
+}
+
+.header-side .channel-coment:hover {
+    background-color: #05a;
+}
+
+.header-side .dm {
+    width: 250px;
+}
+
+.header-side .dm-coment {
+    color: #fff;
+    display: block;
+    padding-left: 10px;
+}
+
+.header-side .dm-coment:hover {
+    background-color: #05a;
+}
+
+.footer-side {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 71px;
+    background-color: #28d;
+}
+
+.footer-side .logout {
+    border: solid 1px rgb(36, 108, 167);
+    width: 240px;
+    height: 71px;
+    background-color: #28d;
+    padding-left: 10px; 
+}
+
+.footer-side .logout:hover {
+    background-color: #05a;
+}

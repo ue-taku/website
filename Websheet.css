@@ -1,0 +1,141 @@
+/*headerの開始*/
+header {
+    border-bottom: solid 1px #aaaaaa;
+    margin-bottom: 55px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/*footerの開始*/
+footer {
+    border-top: solid 1px #aaaaaa;
+    text-align: center;
+    margin-top: 60px
+}
+
+/*new_sinki.htmlの始まり*/
+#sinki .sinki {
+    width: 400px;
+    margin: auto;
+    border: solid 1px #dee3e4;
+    border-radius: 10px;
+    background-color: #dee3e4;
+}
+
+h2 {
+    padding: 0px 152px;
+    display: inline;
+    background-color: #28d;
+    border-radius: 5px 5px 0px 0px;
+    color: #fff;
+}
+
+#sinki .sinki input {
+    box-sizing: border-box;
+    display: block;
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+#sinki .sinki input[type="submit"] {
+    margin: 50px auto;
+    width: 100px;
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+#sinki .sinki input[type="submit"]:hover {
+    background: #17c;
+}
+
+#sinki .sinki input[type="submit"]:focus {
+    border-color: #05a;
+}
+
+#sinki .sinki dl {
+    margin: 40px 0px 0px 10px;
+}
+
+#sinki .sinki dl ,dd {
+    margin-bottom: 10px;
+}
+
+#sinki .sinki dl dt {
+    margin-left: 40px;
+}
+/*new_sinki.htmlの終わり*/
+
+/*new_user.htmlの始まり*/
+#user .user {
+    width: 600px;
+    margin: auto;
+    border: solid 1px #dee3e4;
+    border-radius: 10px;
+    background-color: #dee3e4;
+}
+
+#user h2 {
+    padding: 0px 228px;
+}
+
+#user .user .information {
+    display: flex;
+    flex-direction: row;
+}
+
+#user #profile {
+    border: solid 1px rgb(212, 209, 209);
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+#user #profile img {
+    width:150px;
+    height: 200px;
+    background-image: url(/web制作/aikon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 20px; 
+}
+
+#user #profile span {
+    display: block;
+}
+
+#user nav {
+    border: solid 1px rgb(212, 209, 209);
+    width: 350px;
+}
+
+#user nav ul {
+    padding: 0;
+    margin: 30px 0px;
+}
+
+#user nav ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+#user nav ul li {
+    list-style: none;
+    padding: 15px 10px 15px 10px;
+    font-size: large;
+}
+
+#user nav ul li:hover {
+    background-color: #bae9f3;
+    color:  #05a;
+    border: solid 1px #aaa;
+}
